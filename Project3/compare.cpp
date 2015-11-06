@@ -3,6 +3,9 @@
 #include <iostream>
 #include <math.h>
 #include "matrix.hpp"
+double Lagrange(Matrix& x, Matrix& y, double z);
+Matrix Newton_coefficients(Matrix& x, Matrix& y);
+double Newton_evaluate(Matrix& x, Matrix& c, double z);
 
 int main(){
 	std::chrono::time_point<std::chrono::system_clock> start, end;
@@ -17,6 +20,7 @@ int main(){
 		}
     	start = std::chrono::system_clock::now();
     	//Evaluate lagrange(x,y)
+    	lagrange()
     	end = std::chrono::system_clock::now();
     	std::chrono::duration<double> elapsed_seconds = end-start;
     	std::cout << "finished lagrange" << n << " in " << elapsed_seconds.count() << "s" << endl;
