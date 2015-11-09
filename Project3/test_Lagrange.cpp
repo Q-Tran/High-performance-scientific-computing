@@ -1,6 +1,7 @@
-//Van Tran
-//11/9/15
-//Hisci
+/* Daniel R. Reynolds
+   SMU Mathematics
+   Math 3316
+   1 October 2015 */
 
 // Inclusions
 #include <stdlib.h>
@@ -13,11 +14,10 @@ using namespace std;
 
 
 // function prototypes
-Matrix Newton_coefficients(Matrix& x, Matrix& y);
-double Newton_evaluate(Matrix& x, Matrix& y, double z);
+double Lagrange(Matrix& x, Matrix& y, double z);
 
 
-// This routine tests the function Newton.cpp
+// This routine tests the function lagrange.cpp
 int main(int argc, char* argv[]) {
 
   // simple Lambda function for f(x)
@@ -44,12 +44,11 @@ int main(int argc, char* argv[]) {
     // set evaluation points z as midpoints between nodes
     double dx = 1.0/n;                   // set node spacing
     Matrix z = Linspace(dx/2.0, 1.0-dx/2.0, n, 1);
-    Matrix c = Newton_coefficients(x, y); //CALCULATE THE COEFFICIENTS
   
     // evaluate the Lagrange polynomial at the points z, storing in p
     Matrix p(n);
     for (int i=0; i<n; i++) 
-      p(i) = Newton_evaluate(x, c, z(i));
+      p(i) = Lagrange(x, y, z(i));
 
     // output errors at each point
     cout << "      z        f(z)               p(z)             err\n";

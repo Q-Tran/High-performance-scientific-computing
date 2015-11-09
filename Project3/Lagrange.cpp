@@ -4,6 +4,10 @@
    30 September 2015 */
 
 // Inclusions
+//Van Tran
+//11/9/15
+
+//includes
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
