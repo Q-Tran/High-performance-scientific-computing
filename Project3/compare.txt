@@ -1,0 +1,36 @@
+finished lagrange evaluation of 100 points using interpolating polynomial of 10 points in 0.00215154s
+finished lagrange evaluation of 1000 points using interpolating polynomial of 10 points in 0.02126s
+finished lagrange evaluation of 10000 points using interpolating polynomial of 10 points in 0.214164s
+finished lagrange evaluation of 100000 points using interpolating polynomial of 10 points in 1.47474s
+finished lagrange evaluation of 100 points using interpolating polynomial of 20 points in 0.0025428s
+finished lagrange evaluation of 1000 points using interpolating polynomial of 20 points in 0.0247934s
+finished lagrange evaluation of 10000 points using interpolating polynomial of 20 points in 0.247851s
+finished lagrange evaluation of 100000 points using interpolating polynomial of 20 points in 2.65719s
+finished lagrange evaluation of 100 points using interpolating polynomial of 40 points in 0.03014s
+finished lagrange evaluation of 1000 points using interpolating polynomial of 40 points in 0.299898s
+finished lagrange evaluation of 10000 points using interpolating polynomial of 40 points in 1.23937s
+finished lagrange evaluation of 100000 points using interpolating polynomial of 40 points in 9.43288s
+finished lagrange evaluation of 100 points using interpolating polynomial of 80 points in 0.0372653s
+finished lagrange evaluation of 1000 points using interpolating polynomial of 80 points in 0.368567s
+finished lagrange evaluation of 10000 points using interpolating polynomial of 80 points in 3.69137s
+finished lagrange evaluation of 100000 points using interpolating polynomial of 80 points in 36.9135s
+finished newton coefficient evaluation of 10 points in 7.674e-06s
+finished newton evaluation of 100 points using interpolating polynomial of 10 points in 4.5703e-05s
+finished newton evaluation of 1000 points using interpolating polynomial of 10 points in 0.000461563s
+finished newton evaluation of 10000 points using interpolating polynomial of 10 points in 0.00454996s
+finished newton evaluation of 100000 points using interpolating polynomial of 10 points in 0.0457484s
+finished newton coefficient evaluation of 20 points in 2.1882e-05s
+finished newton evaluation of 100 points using interpolating polynomial of 20 points in 8.224e-05s
+finished newton evaluation of 1000 points using interpolating polynomial of 20 points in 0.000815824s
+finished newton evaluation of 10000 points using interpolating polynomial of 20 points in 0.0082393s
+finished newton evaluation of 100000 points using interpolating polynomial of 20 points in 0.0818487s
+finished newton coefficient evaluation of 40 points in 8.0324e-05s
+finished newton evaluation of 100 points using interpolating polynomial of 40 points in 0.000155033s
+finished newton evaluation of 1000 points using interpolating polynomial of 40 points in 0.00153996s
+finished newton evaluation of 10000 points using interpolating polynomial of 40 points in 0.015522s
+finished newton evaluation of 100000 points using interpolating polynomial of 40 points in 0.159127s
+finished newton coefficient evaluation of 80 points in 0.000297698s
+finished newton evaluation of 100 points using interpolating polynomial of 80 points in 0.000305311s
+finished newton evaluation of 1000 points using interpolating polynomial of 80 points in 0.00302501s
+finished newton evaluation of 10000 points using interpolating polynomial of 80 points in 0.0299103s
+finished newton evaluation of 100000 points using interpolating polynomial of 80 points in 0.299735s

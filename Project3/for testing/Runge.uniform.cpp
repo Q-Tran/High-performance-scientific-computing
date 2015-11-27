@@ -23,13 +23,12 @@ int main(){
 			p6(i, j) = Lagrange2D(x, y, f, a(i), b(j));
 		}
 	}
-	p6.Write("p6_uni.txt");
+	p6matrix.Write("p6_uni.txt");
 
-	n = 24;
+	n = 24
 	m = n;
-	x = Linspace(-4.0, 4.0, m+1, 1);
-	y = Linspace(-4.0, 4.0, n+1, 1);
-	f = Matrix(x.Size(), y.Size());
+	Matrix x = Linspace(-4.0, 4.0, m+1, 1);
+	Matrix y = Linspace(-4.0, 4.0, n+1, 1);
 	for(int i = 0; i < x.Size(); i++){
 		for(int j = 0; j < y.Size(); j++){
 			f(i, j) = 1/(1+(x(i)*x(i)) + (y(j)*y(j)));
