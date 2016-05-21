@@ -1,10 +1,9 @@
-/*Author: Van Tran
-adaptive_int.cpp
-11/25/15*/
+//Van Tran
+
+// includes
 #include <iostream>
 #include <math.h>
 #include "fcn.hpp"
-//includes
 double composite_int(Fcn& f, const double a, const double b, const int n);
 //f is function, a is lower bound of integral, b is uper bound of integral, rtol is, atol is, R is the double that the result is stored in, n is the int that shows the number of subintervals, Ntot is the total number of intervals used along the way
 int adaptive_int(Fcn& f, const double a, const double b, const double rtol, const double atol, double& R, int& n, int& Ntot){

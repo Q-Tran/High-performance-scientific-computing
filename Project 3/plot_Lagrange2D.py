@@ -2,10 +2,7 @@
 #
 # Lagrange2D testing script
 #
-# Daniel R. Reynolds
-# SMU Mathematics
-# Math 3316
-# 1 October 2015
+# Van Tran
 
 from pylab import *
 

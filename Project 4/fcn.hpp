@@ -1,15 +1,11 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   16 September 2015
+// Van Tran
 
-   This file defines a "fcn" class, that essentially creates a small object to 
-   evaluate a user-defined function that carries along its own data parameters. */ 
+//  This file defines a "fcn" class, that essentially creates a small object to
+//  evaluate a user-defined function that carries along its own data parameters.
 
 #ifndef FCN_DEFINED__
 #define FCN_DEFINED__
 
-
-// Fcn class
 class Fcn {
 
 public:
@@ -19,4 +15,4 @@ public:
 
 };
 
-#endif  // FCN_DEFINED__
+#endif

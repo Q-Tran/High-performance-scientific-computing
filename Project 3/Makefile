@@ -1,10 +1,7 @@
 ###################################################################
-#  Makefile for project 3
+#  Makefile for project independent project
 #
 #  Van Tran
-#  Math 3316
-#  11/7/15
-#  NOTE I TOOK OUT THE OPTIMIZATION FLAGS TO MAKE SURE THE CODE COMPILED WAS EXACTLY REPRESENTATIVE OF THE CODE CREATED
 ###################################################################
 
 # compiler & flags

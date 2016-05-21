@@ -1,8 +1,6 @@
 //Van Tran
-//11/9/15
-//Hisci
 
-// Inclusions
+// Includes
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -58,4 +56,4 @@ int main(int argc, char* argv[]) {
 	     z(i), f(z(i)), p(i), fabs(f(z(i))-p(i)));
   }
 
-} // end routine
+}

@@ -1,4 +1,8 @@
+// Van Tran
 
+// Please ignore this file, the results are presented in the ipython notebook
+
+//includes
 #include "matrix.hpp"
 double Lagrange2D(Matrix& x, Matrix& y, Matrix& z, double a, double b);
 

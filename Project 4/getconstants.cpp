@@ -1,9 +1,8 @@
-/*Author: Van Tran
-getconstants.cpp
-11/25/15*/
+//Van Tran
+
+//includes
 #include <iostream>
 #include <math.h>
-//includes
 
 using namespace std;
 int main(){//gives me various constants in floating point precision so I can plug into programs for later

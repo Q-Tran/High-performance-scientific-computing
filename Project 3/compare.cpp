@@ -1,5 +1,4 @@
 //Van Tran
-//11/9/15
 
 //includes
 #include <chrono>

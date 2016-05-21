@@ -1,6 +1,6 @@
-/*Author: Van Tran
-application.cpp
-11/25/15*/
+//Van Tran
+
+// includes
 #include "fcn.hpp"
 #include <iostream>
 //includes

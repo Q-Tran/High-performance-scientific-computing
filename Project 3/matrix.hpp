@@ -1,9 +1,8 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   19 June 2015
+// Matrix class taken from online. Credits given below
 
-   This file defines the Matrix class, as well a variety of linear 
-   algebra functions defined based on matrices and vectors.  Here, 
+/* Daniel R. Reynolds
+   This file defines the Matrix class, as well a variety of linear
+   algebra functions defined based on matrices and vectors.  Here,
    "vectors" are considered as valarray<double> objects. */
 
 #ifndef MATRIX_DEFINED__

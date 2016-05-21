@@ -1,3 +1,6 @@
+// Van Tran
+
+// includes
 #include <iostream>
 #include "matrix.hpp"
 Matrix Newton_coefficients(Matrix& x, Matrix& y){ //returns vector of coefficients
@@ -24,5 +27,5 @@ double Newton_evaluate(Matrix& x, Matrix& c, double z){ //returns the newton met
 	for(int i = c.Size()-1; i >= 0; i--){
 		temp = temp * (z-x(i)) + c(i);
 	}
-	return temp; //book is odd
+	return temp;
 }

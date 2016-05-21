@@ -1,9 +1,6 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   Math 3316
-   16 September 2015 */
+// Van Tran
 
-// Inclusions
+//includes
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -81,9 +78,8 @@ double bisection(Fcn& f, double a, double b, int maxit,
 	   << "], |(b-a)/2| = " << err << endl;
     if (err < tol)  break;
 
-  } // end loop
+  }
 
-  // return final result
   return c;
 
-} // end of function
+} 

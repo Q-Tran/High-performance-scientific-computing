@@ -1,6 +1,6 @@
-/*Author: Van Tran
-composite_int.cpp
-11/25/15*/
+//Van Tran
+
+//includes
 #include <iostream>
 #include <math.h>
 #include "fcn.hpp"

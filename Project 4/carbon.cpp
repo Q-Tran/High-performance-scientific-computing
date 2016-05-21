@@ -1,6 +1,6 @@
-/*Author: Van Tran
-Carbon.cpp
-11/25/15*/
+//Van Tran
+
+//includes
 #include <iostream>
 #include <math.h>
 #include "fcn.hpp"

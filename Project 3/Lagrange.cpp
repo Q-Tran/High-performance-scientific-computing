@@ -1,11 +1,4 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   Math 3316
-   30 September 2015 */
-
-// Inclusions
 //Van Tran
-//11/9/15
 
 //includes
 #include <stdlib.h>
@@ -54,12 +47,10 @@ double Lagrange(Matrix& x, Matrix& y, double z) {
     return 0.0;
   }
 
-  // evaluate p
   double p = 0.0;                       // initialize result
   for (size_t i=0; i<x.Size(); i++)     // loop over data values
     p += y(i)*Lagrange_basis(x, i, z);  // update result with next term
 
-  // return final result
   return p;
 
-} // end of function
+} 

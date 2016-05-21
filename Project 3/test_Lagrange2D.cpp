@@ -1,9 +1,6 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   Math 3316
-   1 October 2015 */
+// Van Tran
 
-// Inclusions
+// includes
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -82,6 +79,6 @@ int main(int argc, char* argv[]) {
   // output p to disk
   p.Write("p20.txt");
 
-} // end routine
+}
 
 

@@ -1,9 +1,6 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   Math 3316
-   31 October 2015 */
+//Van Tran
 
-// Inclusions
+//includes
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -68,9 +65,8 @@ double composite_Gauss2(Fcn& f, const double a,
     // add Gauss2 approximation on this subinterval to result
     F += w1*f(node1) + w2*f(node2);
 
-  } // end loop
+  } 
 
-  // return final result
   return (0.5*h*F);
 
-} // end of function
+} 

@@ -1,4 +1,8 @@
+//Van Tran
 
+//please ignore this file, the results are easily seen in the ipython notebook
+
+//includes
 #include "matrix.hpp"
 double Lagrange2D(Matrix& x, Matrix& y, Matrix& z, double a, double b);
 
@@ -50,7 +54,4 @@ int main(){
 	}
 	//create runge matrix
 	runge.Write("Runge.txt");
-
-
-
 }

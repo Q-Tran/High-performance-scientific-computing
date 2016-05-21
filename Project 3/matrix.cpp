@@ -1,6 +1,6 @@
-/* Daniel R. Reynolds
-   SMU Mathematics
-   19 June 2015 */
+//Matrix class taken from online credits are provided below
+
+// Daniel R. Reynolds
 
 // Inclusions
 #include <stdlib.h>
